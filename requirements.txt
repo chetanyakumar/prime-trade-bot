@@ -1,0 +1,17 @@
+# ============================================================
+# Binance Futures Testnet Trading Bot — Dependencies
+# ============================================================
+# Core
+python-binance>=1.0.19
+python-dotenv>=1.0.1
+
+# CLI & Terminal UI
+typer[all]>=0.12.0
+rich>=13.7.0
+
+# HTTP (used internally by python-binance; pinned for stability)
+requests>=2.31.0
+
+# Type-checking / dev (optional)
+# mypy>=1.8.0
+# ruff>=0.2.0
